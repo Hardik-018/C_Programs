@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<conio.h>
 int main(){
-	int a;
-	printf("Enter Value For A:");
-	scanf("%d", &a);
-	if(a%2==0)
+	int N;
+	printf("Enter Value For N:");
+	scanf("%d", &N);
+	if(N%2==0)
 	printf("Even");
 	else
 	printf("Odd");
