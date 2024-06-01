@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<conio.h>
 int main(){
-	float p,Grade;
+	float p;
+	char grade;
 	printf("Enter Percentage:");
 	scanf("%f", &p);
 	if(p>=90)
