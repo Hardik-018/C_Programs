@@ -17,4 +17,3 @@ int main(){
 	printf("Max number is %d." ,max);
 	return 0;
 }
-
