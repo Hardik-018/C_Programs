@@ -23,6 +23,8 @@ int main(){
 		case 11:
 			printf("30 Days");
 			break;
+default:
+   printf("Invalid Input")
 	}
 	return 0;
 }
