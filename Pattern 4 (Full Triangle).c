@@ -1,14 +1,14 @@
-/*    *
-     ***
-    *****
-   *******
-  *********   */
+/*    *********
+       *******
+	    *****
+		 ***
+		  *   */
 #include<stdio.h>
 int main(){
 	int i,j,n,k;
 	printf("Enter How Many Rows:");
 	scanf("%d", &n);
-	for(i=1;i<=n;i++){
+	for(i=n;i>=1;i--){
 		for(k=1;k<=n-i;k++){
 			printf(" ");
 		}
