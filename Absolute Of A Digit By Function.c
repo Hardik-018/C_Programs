@@ -6,10 +6,9 @@ int isabsolute(int n){
 	return n;
 }
 int main(){
-	char n, ans;
+	char n;
 	printf("Enter A Digit:");
 	scanf("%d", &n);
-	ans=isabsolute(n);
-	printf("Absolute Value Is %d.", ans);
+	printf("Absolute Value Is %d.", isabsolute(n));
 	return 0;
 }
