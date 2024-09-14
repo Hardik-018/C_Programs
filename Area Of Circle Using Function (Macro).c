@@ -1,12 +1,11 @@
 #include<stdio.h>
-#include<conio.h>
 #define pi 3.14
+#define calc_area(r) ((pi)*(r)*(r))
 int main(){
 	int r;
 	float area;
 	printf("Enter Radius:");
 	scanf("%d", &r);
-	area=pi*r*r;
-	printf("area is %f",area);
+	printf("area is %f", calc_area(r));
 	return 0;
 }
